@@ -10,7 +10,7 @@
 
 set -e
 
-echo "Starting build process in: `pwd`"
+echo "Starting buildbbb process in: `pwd`"
 source ./ci/setup.sh
 
 if [[ -f "ci/run.sh" ]]; then
